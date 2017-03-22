@@ -1,0 +1,7 @@
+@import 'common.scss';
+
+.main-content {
+	@include container-wrap;
+	@include container-flex;
+	height: 1200px;
+}

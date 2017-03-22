@@ -1,0 +1,28 @@
+@charset 'utf-8';
+@import 'reset.scss';
+@import 'theme.scss';
+
+// ======== 布局相关 ========
+@mixin container-wrap {
+	width: 960px;
+	height: 120px;
+	margin: auto;
+}
+
+@mixin container-flex {
+	display: -webkit-flex;
+	display: flex;
+}
+
+.theme-title {
+	font-size: $theme-size-title;
+	color: $theme-color-deep;
+	height: 60px;
+	line-height: 60px;
+	width: 100%;
+	border-bottom: solid 1px #CCCCCC;
+}
+
+#cnzz_stat_icon_1261341438 {
+	display: none;
+}

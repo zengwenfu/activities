@@ -1,0 +1,27 @@
+@import 'common.scss';
+
+.header {
+	@include container-wrap;
+	@include container-flex;
+	justify-content: space-between;
+	align-items: center;
+}
+
+.logo {
+	width: 65px;
+	height: 78px;
+	background-image: url(../images/logo.png);
+	background-size: 100% 100%;
+}
+
+.nav {
+	@include container-flex;
+}
+
+.nav-item, .nav-item a {
+	color: $theme-color-deep;
+	font-size: $theme-size-nav;
+	width: 100px;
+	height: 60px;
+	line-height: 60px;
+}
