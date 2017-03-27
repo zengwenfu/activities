@@ -9,6 +9,7 @@
 	justify-content: space-between;
 	height: 150px;
 	border-bottom: dashed 1px #CCCCCC;
+	cursor: pointer;
 }
 
 .article-item-left {
@@ -121,4 +122,5 @@
 	color: $theme-color-deep;
 	text-align: center;
 	font-size: 20px;
+	cursor: pointer;
 }

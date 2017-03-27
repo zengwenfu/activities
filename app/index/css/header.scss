@@ -3,6 +3,7 @@
 .header {
 	@include container-wrap;
 	@include container-flex;
+	height: 120px;
 	justify-content: space-between;
 	align-items: center;
 }

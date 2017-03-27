@@ -1,6 +1,8 @@
 var webpack = require('webpack');
 var HtmlWebpackPlugin = require('html-webpack-plugin');
 var path = require('path');
+var precss = require('precss');
+var autoprefixer = require('autoprefixer');
 
 // 项目根路径
 var ROOT_PATH = __dirname;
@@ -92,6 +94,11 @@ module.exports = {
                         loader: 'style-loader'
                     }, {
                         loader: 'css-loader'
+                    }, {
+                        loader: 'postcss-loader',
+                        options: {
+                            plugins: [precss, autoprefixer]
+                        }
                     }, {
                         loader: 'sass-loader'
                     }

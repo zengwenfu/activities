@@ -5,7 +5,6 @@
 // ======== 布局相关 ========
 @mixin container-wrap {
 	width: 960px;
-	height: 120px;
 	margin: auto;
 }
 
@@ -25,4 +24,8 @@
 
 #cnzz_stat_icon_1261341438 {
 	display: none;
+}
+
+.c-pointer {
+	cursor: pointer;
 }
